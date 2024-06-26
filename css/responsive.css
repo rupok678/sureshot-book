@@ -1,0 +1,242 @@
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 320px and up) */
+@media (min-width: 320px) and (max-width: 575px){ 
+    .pt_101 {
+        padding-top: 45px;
+    }
+    .py_95 {
+        padding: 72px 0px;
+    }
+    .p60_70 {
+        padding: 35px 0 39px 0;
+    }
+    .mb_155 {
+        margin-bottom: 57px;
+    }
+    .mb_100 {
+        margin-bottom: 61px;
+    }
+    p {
+        font-size: 15px;
+    }
+    .topHeader_left {
+        padding: 6px 0;
+        text-align: center;
+    }
+    .topHeader_right {
+        display: flex;
+        justify-content: center;
+    }
+    .topHeader_right ul li a {
+        border-right: 0px solid #ffffff;
+    }
+    .topHeader_right ul li:first-child a {
+        border-left: 0px solid #ffffff;
+    }
+    .topHeader_right ul li a i {
+        padding-top: 10px;
+    }
+
+    /* nav part start */
+    .navbar-brand img {
+        width: 75%;
+        padding: 5px;
+    }
+    .menu li{
+        text-align: right;
+        padding: 10px 14px;
+    }
+
+    /* books part start */
+    .books_items {
+        padding-top: 50px;
+    }
+    .common_header.pt_101 {
+        padding-top: 66px;
+    }
+    .testimonial_part {
+        padding-bottom: 37px;
+    }
+    .testimonial_content .owl-dots {
+        bottom: -50px;
+    }
+
+    /* footer part start */
+    .news_comment {
+        padding-top: 19px;
+    }
+    .copyright_item .pTop {
+        font-size: 13px;
+    }
+    .copyright_item .pTop a{
+        font-size: 13px;
+    }
+    .menu_link,
+    .contact_part {
+        padding-top: 48px;
+    }
+
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px){ 
+    .mb_155 {
+        margin-bottom: 105px;
+    }
+    .mb_100 {
+        margin-bottom: 73px;
+    }
+    .py_30 {
+        padding: 30px 0 15px 0;
+    }
+    .pt_101 {
+        padding-top: 75px;
+    }
+    .p60_70 {
+        padding: 60px 0 60px 0;
+    }
+    /* top header and menu part start */
+    .topHeader_left {
+        padding: 12px 0;
+    }
+    .topHeader_right ul li a {
+        padding: 15px 15px;
+    }
+    .topHeader_right ul li a i {
+        padding-top: 15px;
+    }
+    .navbar-brand img{
+        padding: 12px 0;
+    }
+    .menu li{
+        text-align: right;
+        padding: 10px 14px;
+    }
+
+    /* books part start */
+    .books_items {
+        padding-top: 65px;
+    }
+
+    /* testimonial part */
+    .books_items {
+        padding-top: 65px;
+    }
+
+    /* footer part */
+    .contact_link {
+        padding: 29px 0 0 10px;
+    }
+    .menu_link,
+    .contact_part {
+        padding-top: 45px;
+    }
+    .news_comment {
+        padding-top: 19px;
+    }
+
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px){ 
+    .mb_100 {
+        margin-bottom: 73px;
+    }
+    .p60_70 {
+        padding: 60px 0 60px 0;
+    }
+    
+    /* menu part start */
+    .navbar-brand {
+        margin-right: 0;
+    }
+    .navbar-brand img {
+        padding: 10px 0;
+    }
+    .container{
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .menu li {
+        padding: 0px 12px;
+    }
+
+    /* banner part  */
+    .banner_text {
+        padding: 30px 0 30px;
+    }
+    .mb_155 {
+        margin-bottom: 95px;
+    }
+
+    /* books part */
+    .books_items {
+        padding-top: 66px;
+    }
+
+    /* testimonial part */
+    .testimonial_part {
+        padding-bottom: 44px;
+    }
+
+    /* footer part */
+    .menu_link {
+        padding-top: 32px;
+    }
+    .latest_news {
+        padding-top: 32px;
+    }
+    .news {
+        padding-left: 0;
+    }
+    .news_comment {
+        padding-top: 18px;
+    }
+
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px){ 
+    .p60_70 {
+        padding: 47px 0 29px 0;
+    }
+    
+    /* menu part */
+    .navbar-brand img {
+        padding: 7px 0;
+    }
+
+    /* testimonial part */
+    .testimonial_part {
+        padding-bottom: 65px;
+    }
+    .mb_100 {
+        margin-bottom: 77px;
+    }
+
+    /* footer part */
+    .news_comment .like {
+        padding-left: 17px;
+    }
+    .news_comment {
+        padding-top: 12px;
+    }
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399px){ 
+    
+    .navbar-brand img {
+        padding: 8px 0;
+    }
+    .news {
+        padding-left: 0;
+    }
+ }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+    
+ }
